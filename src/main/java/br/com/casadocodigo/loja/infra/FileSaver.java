@@ -6,7 +6,7 @@ import javax.servlet.http.Part;
 
 public class FileSaver {
 
-	private static final String SERVER_PATH = "C:/casadocodigo";
+	public static final String SERVER_PATH = "C:/casadocodigo";
 
 	public String write(Part arquivo, String path) {
 		String relativePath = path + "/" + arquivo.getSubmittedFileName();
